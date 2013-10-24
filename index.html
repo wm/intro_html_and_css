@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>HTML & CSS - An Introduction to HTML and CSS</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section data-markdown>
+          <script type="text/template">
+            # HTML & CSS
+
+            ### An Introfuction to HTML and CSS
+
+            With [Nataliya](/) and [Will](http://twitter.com/im_a_muppet)
+
+            Note:
+            Introductions and thanks: Who we are, what we do. Thank the impactory and members who helped out
+          </script>
+        </section>
+
+        <section>
+          <section>
+            <h2>Why learn this stuff</h2>
+            <p> They are the building blocks of the web </p>
+          </section>
+          <section>
+            <h2>HTML</h2>
+            <p>Hyper Text Markup Language</p>
+          </section>
+          <section>
+            <h2>CSS</h2>
+            <p>Cascading Style Sheets</p>
+          </section>
+        </section>
+
+        <section>
+           <section data-markdown>
+            <script type="text/template">
+              ## Goals
+
+              Create a personal CV or Resume
+
+              IMAGE OF NICE FINAL PAGE HERE
+            </script>
+          </section>
+
+          <section>
+            <h2>Example</h2>
+            SHOW IMAGE OF FINAL PRODUCT HERE
+          </section>
+
+          <section>
+            <h2>Goals: Day 1</h2>
+            SHOW IMAGE OF END OF DAY VERSION HERE
+          </section>
+
+          <section>
+            <h2>Goals: Day 1</h2>
+            <p>Basic content and layout</p>
+            <p class="fragment roll-in">Title</p>
+            <p class="fragment roll-in">Pharase</p>
+            <p class="fragment roll-in">Education section</p>
+            <p class="fragment roll-in">Experience</p>
+          </section>
+        </section>
+
+        <section>
+          <h2>Tools for this class</h2>
+          <ul>
+            <li>WiFi:
+              <ul>
+                <li>SSID impactory</li>
+                <li>PASSWORD XXXXXXX</li>
+              </ul>
+            </li>
+            <li>Browser: Chrome</li>
+            <li>Editor: LINK TO EDITOR ONLINE</li>
+            <li>These slides: LINK GOES HERE</li>
+          </ul>
+
+          <aside class="notes">
+            Do not transition to the right today!
+          </aside>
+        </section>
+
+        <section>
+          <section>
+            <h2>Goals: Day 2</h2>
+            SHOW IMAGE OF END OF DAY VERSION HERE
+          </section>
+
+          <section>
+            <h2>Goals: Day 2</h2>
+            <p>Basic content and layout</p>
+            <p class="fragment roll-in">A</p>
+            <p class="fragment roll-in">A</p>
+            <p class="fragment roll-in">B</p>
+            <p class="fragment roll-in">C</p>
+          </section>
+        </section>
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
